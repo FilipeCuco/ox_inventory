@@ -1908,10 +1908,6 @@ local clothingOpts = {
 		event = "qb-radialmenu:ToggleClothing",
 		args = {id = "Shirt"},
 	},
-	["hat"] = {
-		event = "qb-radialmenu:ToggleProps",
-		args = {id = "Hat"},
-	},
 	["mask"] = {
 		event = "qb-radialmenu:ToggleClothing",
 		args = {id = "Mask"},
@@ -1919,14 +1915,6 @@ local clothingOpts = {
 	["vest"] = {
 		event = "qb-radialmenu:ToggleClothing",
 		args = {id = "Vest"},
-	},
-	["glasses"] = {
-		event = "qb-radialmenu:ToggleProps",
-		args = {id = "Glasses"},
-	},
-	["watch"] = {
-		event = "qb-radialmenu:ToggleProps",
-		args = {id = "Watch"},
 	},
 	["bag"] = {
 		event = "qb-radialmenu:ToggleClothing",
@@ -1939,6 +1927,18 @@ local clothingOpts = {
 	["shoes"] = {
 		event = "qb-radialmenu:ToggleClothing",
 		args = {id = "Shoes"},
+	},
+	["hat"] = {
+		event = "qb-radialmenu:ToggleProps",
+		args = "Hat",
+	},
+	["glasses"] = {
+		event = "qb-radialmenu:ToggleProps",
+		args = "Glasses",
+	},
+	["watch"] = {
+		event = "qb-radialmenu:ToggleProps",
+		args = "Watch",
 	},
 }
 
