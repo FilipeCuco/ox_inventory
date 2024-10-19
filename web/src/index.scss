@@ -588,3 +588,28 @@ button:active {
   transform: translateY(200px);
   transition: all 200ms;
 }
+
+.search-input {
+  position: absolute;
+  top: 185px;
+  margin-left: 150px;
+  display: flex;
+  transition: 200ms;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-family: $mainFont;
+  font-size: 16px;
+  text-align: center;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: $secondaryColor;
+  &:focus-within {
+    background-color: $secondaryColorDark;
+  }
+}
+
+.search-input::placeholder {
+  color: #fff;
+  opacity: 1;
+}
