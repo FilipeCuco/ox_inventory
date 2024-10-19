@@ -7,9 +7,6 @@ import { GiConverseShoe, GiGymBag } from 'react-icons/gi';
 import { BsWatch } from 'react-icons/bs';
 import { onClothing } from '../../dnd/onClothing';
 
-import { fetchNui } from '../../utils/fetchNui';
-import { Locale } from '../../store/locale';
-
 const InventoryClothing: React.FC = () => {
     const handleClothingClick = (type: string) => {
         onClothing(type);
