@@ -589,23 +589,28 @@ button:active {
   transition: all 200ms;
 }
 
-.search-input {
-  position: absolute;
-  top: 185px;
-  margin-left: 150px;
+
+.wrapper-search-input {
   display: flex;
   transition: 200ms;
   padding: 4px 8px;
   border-radius: 4px;
   font-family: $mainFont;
+  align-content: center;
+  justify-content: center;
   font-size: 16px;
   text-align: center;
   outline: none;
   border: none;
   color: #fff;
-  background-color: $secondaryColor;
-  &:focus-within {
-    background-color: $secondaryColorDark;
+  
+  .search-input {
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: $secondaryColor;
   }
 }
 
